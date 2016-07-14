@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@class AMPhotoChangeDetails;
-
 
 #pragma mark - AMPhotoChange
+
+@class AMPhotoChangeDetails;
 
 @interface AMPhotoChange : NSObject
 

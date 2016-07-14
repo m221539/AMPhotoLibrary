@@ -11,6 +11,8 @@
 
 #pragma mark - AMPhotoChange
 
+@class PHChange, PHObjectChangeDetails, PHFetchResultChangeDetails;
+
 @interface AMPhotoChange (Private)
 
 + (instancetype)changeWithPHChange:(PHChange *)changeInstance;

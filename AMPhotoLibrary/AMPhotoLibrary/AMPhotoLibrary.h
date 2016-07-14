@@ -7,14 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-#import <MobileCoreServices/MobileCoreServices.h>
 #import <Photos/Photos.h>
 
 #import "AMPhotoAsset.h"
 #import "AMPhotoAlbum.h"
 #import "AMPhotoChange.h"
+
 
 typedef NS_ENUM(NSUInteger, AMAuthorizationStatus) {
     AMAuthorizationStatusNotDetermined = 0, // User has not yet made a choice with regards to this application

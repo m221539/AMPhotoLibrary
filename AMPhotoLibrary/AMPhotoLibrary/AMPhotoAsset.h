@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, AMAssetMediaType) {
     AMAssetMediaTypeUnknown = 0,
@@ -14,6 +15,8 @@ typedef NS_ENUM(NSInteger, AMAssetMediaType) {
     AMAssetMediaTypeVideo   = 2,
     AMAssetMediaTypeAudio   = 3,
 };
+
+@class CLLocation, PHAsset, AVPlayerItem;
 
 @interface AMPhotoAsset : NSObject
 

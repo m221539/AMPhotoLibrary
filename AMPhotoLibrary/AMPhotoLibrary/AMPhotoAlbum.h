@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@class AMPhotoAlbum;
-@class AMPhotoAsset;
+@class AMPhotoAlbum, AMPhotoAsset, PHAssetCollection, PHFetchResult;
 
 typedef void (^AMPhotoManagerResultBlock)(BOOL success, NSError *error);
 typedef void (^AMPhotoManagerCheckBlock)(AMPhotoAlbum *album, NSError *error);

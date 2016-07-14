@@ -7,6 +7,9 @@
 //
 
 #import "AMPhotoAsset.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <CoreLocation/CoreLocation.h>
+#import <Photos/Photos.h>
 
 #define AMPhotoAssetThumbnailSize CGSizeMake(160, 160)
 

@@ -7,6 +7,9 @@
 //
 
 #import "AMPhotoChange_Private.h"
+#import "AMPhotoAsset.h"
+#import "AMPhotoAlbum.h"
+#import <Photos/Photos.h>
 
 #pragma mark - AMPhotoChange
 

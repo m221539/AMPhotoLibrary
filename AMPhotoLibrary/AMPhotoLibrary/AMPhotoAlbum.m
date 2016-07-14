@@ -7,6 +7,8 @@
 //
 
 #import "AMPhotoAlbum.h"
+#import "AMPhotoAsset.h"
+#import <Photos/Photos.h>
 
 @interface AMAssetsFilter ()
 
