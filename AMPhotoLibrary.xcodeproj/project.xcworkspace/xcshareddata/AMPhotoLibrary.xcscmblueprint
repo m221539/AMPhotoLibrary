@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F58F56B6F3E2EB82D55CF93CED1F3FBEEE04ECF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F58F56B6F3E2EB82D55CF93CED1F3FBEEE04ECF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B33F8AB6-493C-4443-A20F-B59934FCD676",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F58F56B6F3E2EB82D55CF93CED1F3FBEEE04ECF" : "AMPhotoLibrary"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AMPhotoLibrary",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AMPhotoLibrary.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ArcRain\/AMPhotoLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F58F56B6F3E2EB82D55CF93CED1F3FBEEE04ECF"
+    }
+  ]
+}

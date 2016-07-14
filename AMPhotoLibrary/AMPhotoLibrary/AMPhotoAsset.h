@@ -44,22 +44,20 @@ typedef NS_ENUM(NSInteger, AMAssetMediaType) {
 //Video Property
 @property (nonatomic, readonly, assign) NSTimeInterval duration;
 
-+ (AMPhotoAsset *)photoAssetWithALAsset:(ALAsset *)asset;
-- (ALAsset *)asALAsset;
 
-#ifdef __AMPHOTOLIB_USE_PHOTO__
 + (AMPhotoAsset *)photoAssetWithPHAsset:(PHAsset *)asset;
 - (PHAsset *)asPHAsset;
-#endif
 
 + (NSURL *)fetchPlayerItemURL:(AVPlayerItem *)playerItem;
+
++ (void)fetchAsset:(AMPhotoAsset *)asset rawData:(void (^)(NSData *, AVPlayerItem *))resultBlock;
 
 /*
  For Image: use rawData
  For Video: use playerItem, for URL use 'fetchPlayerItemURL'
  For iOS8 below: use assetRepresentation
  */
-+ (void)fetchAsset:(AMPhotoAsset *)asset rawData:(void(^)(NSData *rawData, AVPlayerItem *playerItem, ALAssetRepresentation *assetRepresentation))resultBlock;
+
 
 typedef NS_ENUM(NSInteger, AMAssetImageType) {
     AMAssetImageTypeThumbnail = 0,

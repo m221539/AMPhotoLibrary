@@ -10,7 +10,9 @@
 
 @class AMPhotoChangeDetails;
 
+
 #pragma mark - AMPhotoChange
+
 @interface AMPhotoChange : NSObject
 
 // the object is AMPhotoAsset/AMPhotoAlbum
@@ -21,7 +23,9 @@
 
 @end
 
+
 #pragma mark - AMPhotoChangeDetails
+
 @interface AMPhotoChangeDetails : NSObject
 
 // the object in the state before this change (returns the object that was passed in to changeDetailsForObject:)

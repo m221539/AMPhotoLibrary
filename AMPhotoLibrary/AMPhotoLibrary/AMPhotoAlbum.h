@@ -33,16 +33,12 @@ typedef void (^AMPhotoManagerAssetEnumerationBlock)(AMPhotoAsset *asset, NSUInte
 
 @property (nonatomic, strong) AMAssetsFilter *assetsFilter;
 
-+ (AMPhotoAlbum *)photoAlbumWithALAssetsGroup:(ALAssetsGroup *)assetsGroup;
-- (ALAssetsGroup *)asALAssetsGroup;
 
-#ifdef __AMPHOTOLIB_USE_PHOTO__
 + (AMPhotoAlbum *)photoAlbumWithPHAssetCollection:(PHAssetCollection *)assetCollection;
 - (PHAssetCollection *)asPHAssetCollection;
 
 @property (nonatomic, readonly, strong) PHFetchResult *fetchResult;
 
-#endif
 
 - (void)changed:(id)afterChanges;
 - (void)enumerateAssets:(AMPhotoManagerAssetEnumerationBlock)enumerationBlock resultBlock:(AMPhotoManagerResultBlock)resultBlock;
